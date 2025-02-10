@@ -1,0 +1,311 @@
+
+*** Running vivado
+    with args -log design_3_rsa_decrypt_0_0.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_3_rsa_decrypt_0_0.tcl
+
+
+
+****** Vivado v2024.1 (64-bit)
+  **** SW Build 5076996 on Wed May 22 18:37:14 MDT 2024
+  **** IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
+  **** SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
+  **** Start of session at: Wed Dec 18 13:42:49 2024
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source design_3_rsa_decrypt_0_0.tcl -notrace
+create_project: Time (s): cpu = 00:00:07 ; elapsed = 00:00:15 . Memory (MB): peak = 554.355 ; gain = 239.633
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2024.1/data/ip'.
+WARNING: [IP_Flow 19-4995] The host OS only allows 260 characters in a normal path. The IP cache path is more than 80 characters. If you experience issues with IP caching, please consider changing the IP cache to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter. 
+Current IP cache path is c:/Users/Miruna/Documents/POLI/an3/SSC/proiectCraciun/projectCraciun/projectCraciun.cache/ip 
+Command: synth_design -top design_3_rsa_decrypt_0_0 -part xc7z020clg400-1 -incremental_mode off -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Device 21-403] Loading part xc7z020clg400-1
+INFO: [Device 21-9227] Part: xc7z020clg400-1 does not have CEAM library.
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 10760
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:06 . Memory (MB): peak = 1439.496 ; gain = 447.281
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'design_3_rsa_decrypt_0_0' [c:/Users/Miruna/Documents/POLI/an3/SSC/proiectCraciun/projectCraciun/projectCraciun.gen/sources_1/bd/design_3/ip/design_3_rsa_decrypt_0_0/synth/design_3_rsa_decrypt_0_0.v:53]
+INFO: [Synth 8-638] synthesizing module 'rsa_decrypt' [C:/Users/Miruna/Documents/POLI/an3/SSC/proiectCraciun/projectCraciun/projectCraciun.srcs/sources_1/new/rsa_decrypt.vhd:22]
+INFO: [Synth 8-256] done synthesizing module 'rsa_decrypt' (0#1) [C:/Users/Miruna/Documents/POLI/an3/SSC/proiectCraciun/projectCraciun/projectCraciun.srcs/sources_1/new/rsa_decrypt.vhd:22]
+INFO: [Synth 8-6155] done synthesizing module 'design_3_rsa_decrypt_0_0' (0#1) [c:/Users/Miruna/Documents/POLI/an3/SSC/proiectCraciun/projectCraciun/projectCraciun.gen/sources_1/bd/design_3/ip/design_3_rsa_decrypt_0_0/synth/design_3_rsa_decrypt_0_0.v:53]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:08 . Memory (MB): peak = 1552.941 ; gain = 560.727
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:05 ; elapsed = 00:00:08 . Memory (MB): peak = 1552.941 ; gain = 560.727
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:08 . Memory (MB): peak = 1552.941 ; gain = 560.727
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.006 . Memory (MB): peak = 1552.941 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1639.504 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.038 . Memory (MB): peak = 1640.234 ; gain = 0.730
+INFO: [Designutils 20-5008] Incremental synthesis strategy off
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:11 ; elapsed = 00:00:17 . Memory (MB): peak = 1640.234 ; gain = 648.020
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z020clg400-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:11 ; elapsed = 00:00:17 . Memory (MB): peak = 1640.234 ; gain = 648.020
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:11 ; elapsed = 00:00:17 . Memory (MB): peak = 1640.234 ; gain = 648.020
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:11 ; elapsed = 00:00:17 . Memory (MB): peak = 1640.234 ; gain = 648.020
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 3     
+	                8 Bit    Registers := 1     
+	                1 Bit    Registers := 3     
++---Multipliers : 
+	              32x32  Multipliers := 2     
++---Muxes : 
+	   2 Input   32 Bit        Muxes := 2     
+	   2 Input    1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 220 (col length:60)
+BRAMs: 280 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+DSP Report: Generating DSP temp_base1, operation Mode is: A2*B2.
+DSP Report: register temp_base_reg is absorbed into DSP temp_base1.
+DSP Report: register temp_base1 is absorbed into DSP temp_base1.
+DSP Report: operator temp_base1 is absorbed into DSP temp_base1.
+DSP Report: operator temp_base1 is absorbed into DSP temp_base1.
+DSP Report: Generating DSP temp_base1, operation Mode is: (PCIN>>17)+A2*B2.
+DSP Report: register temp_base_reg is absorbed into DSP temp_base1.
+DSP Report: register temp_base_reg is absorbed into DSP temp_base1.
+DSP Report: operator temp_base1 is absorbed into DSP temp_base1.
+DSP Report: operator temp_base1 is absorbed into DSP temp_base1.
+DSP Report: Generating DSP temp_base1, operation Mode is: A2*B2.
+DSP Report: register temp_base1 is absorbed into DSP temp_base1.
+DSP Report: register temp_base1 is absorbed into DSP temp_base1.
+DSP Report: operator temp_base1 is absorbed into DSP temp_base1.
+DSP Report: operator temp_base1 is absorbed into DSP temp_base1.
+DSP Report: Generating DSP temp_base1, operation Mode is: (PCIN>>17)+A2*B2.
+DSP Report: register temp_base_reg is absorbed into DSP temp_base1.
+DSP Report: register temp_base1 is absorbed into DSP temp_base1.
+DSP Report: operator temp_base1 is absorbed into DSP temp_base1.
+DSP Report: operator temp_base1 is absorbed into DSP temp_base1.
+DSP Report: Generating DSP result1, operation Mode is: A2*B.
+DSP Report: register result1 is absorbed into DSP result1.
+DSP Report: operator result1 is absorbed into DSP result1.
+DSP Report: operator result1 is absorbed into DSP result1.
+DSP Report: Generating DSP result1, operation Mode is: (PCIN>>17)+A*B2.
+DSP Report: register temp_base_reg is absorbed into DSP result1.
+DSP Report: operator result1 is absorbed into DSP result1.
+DSP Report: operator result1 is absorbed into DSP result1.
+DSP Report: Generating DSP result1, operation Mode is: A*B2.
+DSP Report: register result1 is absorbed into DSP result1.
+DSP Report: operator result1 is absorbed into DSP result1.
+DSP Report: operator result1 is absorbed into DSP result1.
+DSP Report: Generating DSP result1, operation Mode is: (PCIN>>17)+A*B2.
+DSP Report: register temp_base_reg is absorbed into DSP result1.
+DSP Report: operator result1 is absorbed into DSP result1.
+DSP Report: operator result1 is absorbed into DSP result1.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:18 ; elapsed = 00:00:29 . Memory (MB): peak = 1640.234 ; gain = 648.020
+---------------------------------------------------------------------------------
+ Sort Area is  temp_base1_0 : 0 0 : 3137 5949 : Used 1 time 0
+ Sort Area is  temp_base1_0 : 0 1 : 2812 5949 : Used 1 time 0
+ Sort Area is  result1_6 : 0 0 : 3119 5913 : Used 1 time 0
+ Sort Area is  result1_6 : 0 1 : 2794 5913 : Used 1 time 0
+ Sort Area is  temp_base1_3 : 0 0 : 2793 5484 : Used 1 time 0
+ Sort Area is  temp_base1_3 : 0 1 : 2691 5484 : Used 1 time 0
+ Sort Area is  result1_9 : 0 0 : 2777 5452 : Used 1 time 0
+ Sort Area is  result1_9 : 0 1 : 2675 5452 : Used 1 time 0
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+
+DSP: Preliminary Mapping Report (see note below. The ' indicates corresponding REG is set)
++------------+------------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|Module Name | DSP Mapping      | A Size | B Size | C Size | D Size | P Size | AREG | BREG | CREG | DREG | ADREG | MREG | PREG | 
++------------+------------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|rsa_decrypt | A2*B2            | 18     | 16     | -      | -      | 48     | 1    | 1    | -    | -    | -     | 0    | 0    | 
+|rsa_decrypt | (PCIN>>17)+A2*B2 | 16     | 16     | -      | -      | 48     | 1    | 1    | -    | -    | -     | 0    | 0    | 
+|rsa_decrypt | A2*B2            | 18     | 18     | -      | -      | 48     | 1    | 1    | -    | -    | -     | 0    | 0    | 
+|rsa_decrypt | (PCIN>>17)+A2*B2 | 18     | 16     | -      | -      | 48     | 1    | 1    | -    | -    | -     | 0    | 0    | 
+|rsa_decrypt | A2*B             | 18     | 16     | -      | -      | 48     | 1    | 0    | -    | -    | -     | 0    | 0    | 
+|rsa_decrypt | (PCIN>>17)+A*B2  | 16     | 16     | -      | -      | 48     | 0    | 1    | -    | -    | -     | 0    | 0    | 
+|rsa_decrypt | A*B2             | 18     | 18     | -      | -      | 48     | 0    | 1    | -    | -    | -     | 0    | 0    | 
+|rsa_decrypt | (PCIN>>17)+A*B2  | 18     | 16     | -      | -      | 48     | 0    | 1    | -    | -    | -     | 0    | 0    | 
++------------+------------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+
+Note: The table above is a preliminary report that shows the DSPs inferred at the current stage of the synthesis flow. Some DSP may be reimplemented as non DSP primitives later in the synthesis flow. Multiple instantiated DSPs are reported only once.
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:22 ; elapsed = 00:00:41 . Memory (MB): peak = 1640.234 ; gain = 648.020
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:22 ; elapsed = 00:00:41 . Memory (MB): peak = 1640.234 ; gain = 648.020
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:23 ; elapsed = 00:00:42 . Memory (MB): peak = 1640.234 ; gain = 648.020
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:25 ; elapsed = 00:00:48 . Memory (MB): peak = 1640.234 ; gain = 648.020
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:25 ; elapsed = 00:00:48 . Memory (MB): peak = 1640.234 ; gain = 648.020
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:25 ; elapsed = 00:00:49 . Memory (MB): peak = 1640.234 ; gain = 648.020
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:25 ; elapsed = 00:00:49 . Memory (MB): peak = 1640.234 ; gain = 648.020
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:25 ; elapsed = 00:00:49 . Memory (MB): peak = 1640.234 ; gain = 648.020
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:25 ; elapsed = 00:00:49 . Memory (MB): peak = 1640.234 ; gain = 648.020
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+DSP Final Report (the ' indicates corresponding REG is set)
++------------+----------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|Module Name | DSP Mapping    | A Size | B Size | C Size | D Size | P Size | AREG | BREG | CREG | DREG | ADREG | MREG | PREG | 
++------------+----------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|rsa_decrypt | A'*B'          | 17     | 15     | -      | -      | 48     | 1    | 1    | -    | -    | -     | 0    | 0    | 
+|rsa_decrypt | PCIN>>17+A'*B' | 15     | 15     | -      | -      | 48     | 1    | 1    | -    | -    | -     | 0    | 0    | 
+|rsa_decrypt | A'*B'          | 17     | 17     | -      | -      | 48     | 1    | 1    | -    | -    | -     | 0    | 0    | 
+|rsa_decrypt | PCIN>>17+A'*B' | 17     | 15     | -      | -      | 48     | 1    | 1    | -    | -    | -     | 0    | 0    | 
+|rsa_decrypt | A'*B'          | 17     | 15     | -      | -      | 48     | 1    | 1    | -    | -    | -     | 0    | 0    | 
+|rsa_decrypt | PCIN>>17+A'*B' | 15     | 15     | -      | -      | 48     | 1    | 1    | -    | -    | -     | 0    | 0    | 
+|rsa_decrypt | A*B'           | 17     | 17     | -      | -      | 48     | 0    | 1    | -    | -    | -     | 0    | 0    | 
+|rsa_decrypt | PCIN>>17+A*B'  | 17     | 15     | -      | -      | 48     | 0    | 1    | -    | -    | -     | 0    | 0    | 
++------------+----------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+--------+------+
+|      |Cell    |Count |
++------+--------+------+
+|1     |CARRY4  |  1464|
+|2     |DSP48E1 |     8|
+|4     |LUT1    |   186|
+|5     |LUT2    |   268|
+|6     |LUT3    |  5050|
+|7     |LUT4    |    95|
+|8     |LUT5    |    36|
+|9     |LUT6    |   132|
+|10    |FDRE    |    59|
+|11    |FDSE    |     1|
++------+--------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:25 ; elapsed = 00:00:49 . Memory (MB): peak = 1640.234 ; gain = 648.020
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 1 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:19 ; elapsed = 00:00:47 . Memory (MB): peak = 1640.234 ; gain = 560.727
+Synthesis Optimization Complete : Time (s): cpu = 00:00:25 ; elapsed = 00:00:49 . Memory (MB): peak = 1640.234 ; gain = 648.020
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.078 . Memory (MB): peak = 1647.945 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 1472 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+WARNING: [Netlist 29-101] Netlist 'design_3_rsa_decrypt_0_0' is not ideal for floorplanning, since the cellview 'rsa_decrypt' contains a large number of primitives.  Please consider enabling hierarchy in synthesis if you want to do floorplanning.
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1651.602 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Synth Design complete | Checksum: 377c3d5b
+INFO: [Common 17-83] Releasing license: Synthesis
+23 Infos, 3 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:28 ; elapsed = 00:00:58 . Memory (MB): peak = 1651.602 ; gain = 1083.922
+Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.029 . Memory (MB): peak = 1651.602 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'C:/Users/Miruna/Documents/POLI/an3/SSC/proiectCraciun/projectCraciun/projectCraciun.runs/design_3_rsa_decrypt_0_0_synth_1/design_3_rsa_decrypt_0_0.dcp' has been generated.
+INFO: [Vivado 12-24828] Executing command : report_utilization -file design_3_rsa_decrypt_0_0_utilization_synth.rpt -pb design_3_rsa_decrypt_0_0_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Wed Dec 18 13:44:12 2024...
