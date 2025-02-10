@@ -1,7 +1,0 @@
-# compile vhdl design source files
-vhdl xil_defaultlib  \
-"../../../../projectCraciun.srcs/sources_1/new/private_key_RSA.vhd" \
-"../../../../projectCraciun.srcs/sim_1/new/tb_private_key_RSA.vhd" \
-
-# Do not sort compile order
-nosort

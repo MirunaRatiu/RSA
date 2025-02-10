@@ -1,3 +1,0 @@
-C:/Users/Miruna/Documents/POLI/an3/SSC/proiectCraciun/projectCraciun/platformCraciun/zynq_fsbl/build/CMakeFiles/fsbl.elf.dir
-C:/Users/Miruna/Documents/POLI/an3/SSC/proiectCraciun/projectCraciun/platformCraciun/zynq_fsbl/build/CMakeFiles/edit_cache.dir
-C:/Users/Miruna/Documents/POLI/an3/SSC/proiectCraciun/projectCraciun/platformCraciun/zynq_fsbl/build/CMakeFiles/rebuild_cache.dir

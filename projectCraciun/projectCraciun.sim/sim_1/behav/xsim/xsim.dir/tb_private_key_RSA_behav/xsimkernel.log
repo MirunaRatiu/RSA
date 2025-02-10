@@ -1,7 +1,0 @@
-Running: xsim.dir/tb_private_key_RSA_behav/xsimk.exe -simmode gui -wdb tb_private_key_RSA_behav.wdb -simrunnum 0 -socket 53409
-Design successfully loaded
-Design Loading Memory Usage: 10936 KB (Peak: 10936 KB)
-Design Loading CPU Usage: 46 ms
-Simulation completed
-Simulation Memory Usage: 11612 KB (Peak: 11612 KB)
-Simulation CPU Usage: 46 ms
